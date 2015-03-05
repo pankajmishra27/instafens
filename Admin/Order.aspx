@@ -81,7 +81,7 @@
                                 <asp:HiddenField ID="hfUser" runat="server" />
                             </div>
                             <div class="form-actions">
-                                <asp:Button ID="btnSubmit" runat="server" OnClick="btnSubmit_Click" Text="Add" CssClass="btn btn-primary" />
+                                <asp:Button ID="btnSubmit" runat="server" OnClick="btnSubmit_Click" Text="Add Order" CssClass="btn btn-primary" />
                                 <asp:Button ID="btnReset" runat="server" CssClass="btn" OnClick="btnReset_Click"
                                     Text="Reset" />
                             </div>
@@ -89,6 +89,9 @@
                     </div>
                 </div>
                 <!--/span-->
+
+
+                  
             </div>
             <!--/row-->
             <!-- content ends -->

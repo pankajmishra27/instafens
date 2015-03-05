@@ -160,7 +160,7 @@
 					<ul class="nav nav-tabs nav-stacked main-menu">
 						<li class="nav-header hidden-tablet">Main</li>
 						<li><a class="ajax-link" href="Home.aspx"><i class="icon-home"></i><span class="hidden-tablet"> Dashboard</span></a></li>
-                        				<li><a class="ajax-link" href="AddFund.aspx"><i class="icon-edit"></i><span class="hidden-tablet"> Add Fund</span></a></li>
+                        				<%--<li><a class="ajax-link" href="AddFund.aspx"><i class="icon-edit"></i><span class="hidden-tablet"> Add Fund</span></a></li>--%>
 						<li><a class="ajax-link" href="Account.aspx"><i class="icon-edit"></i><span class="hidden-tablet"> Account</span></a></li>
 						<li><a class="ajax-link" href="Accounts.aspx"><i class="icon-align-justify"></i><span class="hidden-tablet"> Accounts</span></a></li>
                          <li><a class="ajax-link" href="InstagramUser.aspx"><i class="icon-edit"></i><span class="hidden-tablet">Add Auto Like User</span></a></li>
@@ -176,8 +176,8 @@
                         <li><a class="ajax-link" href="AutoLikeCompletedOrder.aspx"><i class="icon-align-justify"></i><span class="hidden-tablet"> Auto LikeCompleted Orders</span></a></li>
 
                         <li><a class="ajax-link" href="Payment.aspx"><i class="icon-edit"></i><span class="hidden-tablet"> Payments</span></a></li>
-                        <li><a class="ajax-link" href="PaymentDetails.aspx"><i class="icon-edit"></i><span class="hidden-tablet"> Payments Details</span></a></li>
-						<li><a class="ajax-link" href="PaymentRecordDetails.aspx"><i class="icon-align-justify"></i><span class="hidden-tablet"> Payments</span></a></li>
+                        <%--<li><a class="ajax-link" href="PaymentDetails.aspx"><i class="icon-edit"></i><span class="hidden-tablet"> Payments Details</span></a></li>--%>
+						<li><a class="ajax-link" href="PaymentRecordDetails.aspx"><i class="icon-align-justify"></i><span class="hidden-tablet"> Payments Details</span></a></li>
                         <li><a class="ajax-link" href="User.aspx"><i class="icon-edit"></i><span class="hidden-tablet"> Customer</span></a></li>
 						<li><a class="ajax-link" href="Users.aspx"><i class="icon-align-justify"></i><span class="hidden-tablet"> Add Customer</span></a></li>
                         <li><a class="ajax-link" href="Setting.aspx"><i class="icon-edit"></i><span class="hidden-tablet"> Setting</span></a></li>

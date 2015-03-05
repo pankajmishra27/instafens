@@ -27,17 +27,17 @@ namespace Social_Media_Service_Panel.Admin
                 }
                 if (!IsPostBack)
                 {
-                    Order_Types.GetUserAmountStatus();
-                    ddlStatus.DataSource = Order_Types.UserAmountStatus;
-                    ddlStatus.DataValueField = "Value";
-                    ddlStatus.DataBind();
+                    //Order_Types.GetUserAmountStatus();
+                    //ddlStatus.DataSource = Order_Types.UserAmountStatus;
+                    //ddlStatus.DataValueField = "Value";
+                    //ddlStatus.DataBind();
                     var User = Roles.GetUsersInRole("User");
                     ddlUserName.DataSource = User;
                     ddlUserName.DataBind();
-                    Order_Types.GetManuallyAndAutomatically();
-                    ddlManuAuto.DataSource = Order_Types.ManuallyAndAutomatically;
-                    ddlManuAuto.DataValueField = "Value";
-                    ddlManuAuto.DataBind();
+                    //Order_Types.GetManuallyAndAutomatically();
+                    //ddlManuAuto.DataSource = Order_Types.ManuallyAndAutomatically;
+                    //ddlManuAuto.DataValueField = "Value";
+                    //ddlManuAuto.DataBind();
                 }
             }
             catch (Exception ex)
@@ -64,10 +64,10 @@ namespace Social_Media_Service_Panel.Admin
                 }
                 else
                 {
-                    payment.AddPayment(ddlUserName.SelectedItem.Value, double.Parse(txtAmount.Text.Trim()),dt);
+                    payment.AddPayment(ddlUserName.SelectedItem.Value, double.Parse(txtAmount.Text.Trim()), dt);
                 }
-
-                payment.AddPaymentRecord(ddlUserName.SelectedItem.Value, double.Parse(txtAmount.Text.Trim()), ddlStatus.SelectedItem.Text,dt,dt, UpdatedBy[0].Trim(), txtTransactionId.Text.Trim(), txtPaymentSite.Text.Trim(), ddlManuAuto.SelectedItem.Text);
+                Guid txnid = Guid.NewGuid();
+                payment.AddPaymentRecord(ddlUserName.SelectedItem.Value, double.Parse(txtAmount.Text.Trim()), "True", dt, dt, UpdatedBy[0].Trim(), txnid.ToString(), "http://198.20.168.134/Admin/Payment.aspx", "Manually");
                 lblSubmitmsg.Text = ddlUserName.SelectedItem.Value+" Payment Details Are Submit";
             }
             catch (Exception ex)

@@ -71,7 +71,7 @@
                                     <asp:Label ID="lblErrorMessage" runat="server" CssClass="control-label" for="inputError"></asp:Label></label>
                             </div>
                             <div >
-                                <asp:Button ID="btnSubmit" runat="server" Text="Save" 
+                                <asp:Button ID="btnSubmit" runat="server" Text="Add Like Order" 
                                     CssClass="btn btn-primary" onclick="btnSubmit_Click" />
                                 <asp:Button ID="btnReset" runat="server" CssClass="btn" 
                                     Text="Reset" onclick="btnReset_Click" />

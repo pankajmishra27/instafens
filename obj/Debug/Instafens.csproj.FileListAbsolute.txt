@@ -11,3 +11,7 @@ E:\Old F\PROJECTS\Current Projects\LATEST ASSEMBLA PROJECTS\INSTAGRAM\InstafensN
 E:\Old F\PROJECTS\Current Projects\LATEST ASSEMBLA PROJECTS\INSTAGRAM\InstafensNew\SocialWebPanel_AutoLikeLatest\SocialWebPanel\obj\Debug\Instafens.csprojResolveAssemblyReference.cache
 E:\Old F\PROJECTS\Current Projects\LATEST ASSEMBLA PROJECTS\INSTAGRAM\InstafensNew\SocialWebPanel_AutoLikeLatest\SocialWebPanel\obj\Debug\Instafens.dll
 E:\Old F\PROJECTS\Current Projects\LATEST ASSEMBLA PROJECTS\INSTAGRAM\InstafensNew\SocialWebPanel_AutoLikeLatest\SocialWebPanel\obj\Debug\Instafens.pdb
+E:\GitHub\instafens\bin\Instafens.dll
+E:\GitHub\instafens\bin\Instafens.pdb
+E:\GitHub\instafens\obj\Debug\Instafens.dll
+E:\GitHub\instafens\obj\Debug\Instafens.pdb
